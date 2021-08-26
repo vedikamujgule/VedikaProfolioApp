@@ -1,0 +1,62 @@
+
+<nav class="navbar navbar-light bg-light header-bg fixed-top">
+    <button class="navbar-toggler ml-3" type="button" (click)="clickEvent()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+    
+  <div id="layout-sidenav" class="sidenav material-style full-height">
+
+    <img src="../../assets/profile.jpg
+    " alt="Avatar">
+    <p class="sidenav-text">Vedika Mujgule</p>
+    <p class="sidenav-text" style="font-size: 16px !important;padding:0.5em;">Software Engineer | Angular | UI/UX | Typescript | HTML5 CSS | Adobe XD | Docker | Git  </p>
+
+    <ul class="sidenav-inner py-1">
+        <li class="sidenav-item sidenav-item">
+            <button class="sidenav-link sidenav-link " [ngClass]="routeUrl === '/about-me' ? 'active': ''" (click)="navigateTo('about me')">
+            <span class="sidenav-dsplay"><span class="sidenav-line"></span>
+                <img src="/assets/logo/Scroll Group 3.png" class="sidenav-icon">
+                About Me</span> 
+            </button>
+        </li>
+        <li class="sidenav-item sidenav-item">
+          <button class="sidenav-link sidenav-link " [ngClass]="routeUrl === '/education' ? 'active': ''" (click)="navigateTo('education')">
+          <span class="sidenav-dsplay"><span class="sidenav-line"></span>
+              <img src="/assets/logo/Scroll Group 3.png" class="sidenav-icon">
+              Education</span> 
+          </button>
+      </li>
+      <li class="sidenav-item sidenav-item">
+        <button class="sidenav-link sidenav-link " [ngClass]="routeUrl === '/work-exp' ? 'active': ''" (click)="navigateTo('work-exp')">
+        <span class="sidenav-dsplay"><span class="sidenav-line"></span>
+            <img src="/assets/logo/Scroll Group 3.png" class="sidenav-icon">
+            Work Experience</span> 
+        </button>
+    </li>
+    
+    <li class="sidenav-item sidenav-item">
+        <button class="sidenav-link sidenav-link " [ngClass]="routeUrl === '/skills' ? 'active': ''" (click)="navigateTo('skills')">
+        <span class="sidenav-dsplay"><span class="sidenav-line"></span>
+            <img src="/assets/logo/Scroll Group 3.png" class="sidenav-icon">
+            Skills</span> 
+        </button>
+    </li>
+    <li class="sidenav-item sidenav-item">
+        <button class="sidenav-link sidenav-link " [ngClass]="routeUrl === '/k' ? 'active': ''" (click)="navigateTo('k')">
+        <span class="sidenav-dsplay"><span class="sidenav-line"></span>
+            <img src="/assets/logo/Scroll Group 3.png" class="sidenav-icon">
+            Skills</span> 
+        </button>
+    </li>
+    <li class="sidenav-item sidenav-item">
+        <button class="sidenav-link sidenav-link " [ngClass]="routeUrl === '/k' ? 'active': ''" (click)="navigateTo('k')">
+        <span class="sidenav-dsplay"><span class="sidenav-line"></span>
+            <img src="/assets/logo/Scroll Group 3.png" class="sidenav-icon">
+            Skills</span> 
+        </button>
+    </li>
+    </ul>      
+
+</div>
+<div class="layout-overlay layout-sidenav-toggle"></div>
