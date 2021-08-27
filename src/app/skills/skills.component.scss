@@ -1,260 +1,114 @@
-body {
-    font-family: 'Lato', sans-serif;
-    background-color: inherit; }
-  
-  .title {
-    text-align: center;
-    letter-spacing: 1px; }
-  
-  .skillBox {
-    margin: 20px auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-  
-  a {
-    float: left;
-    width: 5%;
-    font-size: 30px;
-    padding-right: 5px; }
-  
-  .ion-social-html5-outline {
-    color: #DD3b2d; }
-  
-  .ion-social-css3-outline {
-    color: #0277bd; }
-  
-  .ion-social-javascript {
-    color: #e5a228;
-    font-size: 180%; }
-  
-  .ion-social-angular-outline {
-    color: #E42939;
-    font-size: 175%; }
-  
-  .ion-social-nodejs {
-    color: #83CD29; }
-  
-  .ion-social-wordpress-outline {
-    color: #008AC1; }
-  
-  .skillBar {
-    width: 85%;
-    height: 35px;
-    margin: 2px auto; }
-  
-  .skillArea {
-    width: 90%;
-    margin-left: 10px;
+@import "~src/scss/_variables.scss";    
+
+.wrapper{
+    width: 400px;
+    font-family: 'Roboto', sans-serif;
+margin:0 auto;
+}
+.skill {
+    margin-bottom: 35px;
     position: relative;
-    left: 11px;
-    top: 7px; }
-  
-  .skillName {
-    text-align: center;
-    font-size: 14px;
-    margin: 10px;
+        overflow-x:hidden;
+        
+}
+.skill > p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1716;
+    margin: 0;
+}
+.skill:before{
+    width: 100%;
+    height: 5px;
+    content: "";
+    display: block;
+    position: absolute;
+    background: #959595;
+    bottom: 0;
+}
+.skill-bar {
+    width: 100%;
+    height: 5px;
+    background:#f4392f;
+    display: block;
     position: relative;
-    top: 5px; }
-  
-  .skill-HTML {
+}
+
+/* SKILL 1 */
+.skill1{
     width: 95%;
-    height: 2px;
-    -webkit-animation: Animate-HTML 3s;
-            animation: Animate-HTML 3s;
-    background-color: #000000;
+        
+}
+.skill-bar span{
+    position: absolute;
+    border-top: 5px solid #f4392f;
+    top: -30px;
+    padding: 0;
+    font-size: 18px;
+    padding: 3px 0;
+    font-weight: 500;
+}
+.skill-bar {
     position: relative;
-    float: left;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box; }
-  
-  .skill-CSS {
+        
+}
+
+.skill1 .skill-count1 {
+    right: 0;
+}
+/* SKILL 2 */
+.skill2{
     width: 85%;
-    height: 2px;
-    -webkit-animation: Animate-CSS 3s;
-            animation: Animate-CSS 3s;
-    background-color: #000000;
-    position: relative;
-    float: left;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box; }
-  
-  .skill-JS {
+}
+
+.skill2 .skill-count2 {
+    right: 0;
+}
+/* SKILL 3 */
+.skill3{
+    width: 75%;
+}
+.skill3 .skill-count3 {
+    right: 0;
+}
+
+/* SKILL 4 */
+.skill4{
+    width: 65%
+}
+
+.skill4 .skill-count4 {
+    right: 0;
+}
+
+/* SKILL 5 */
+.skill5{
     width: 80%;
-    height: 2px;
-    -webkit-animation: Animate-JS 3s;
-            animation: Animate-JS 3s;
-    background-color: #000000;
-    position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    float: left; }
-  
-  .skill-A4 {
-    width: 50%;
-    height: 2px;
-    -webkit-animation: Animate-A4 3s;
-            animation: Animate-A4 3s;
-    background-color: #000000;
-    position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    float: left; }
-  
-  .skill-NODEJS {
-    width: 70%;
-    height: 2px;
-    -webkit-animation: Animate-NODEJS 3s;
-            animation: Animate-NODEJS 3s;
-    background-color: #000000;
-    position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    float: left; }
-  
-  .skill-WP {
-    width: 90%;
-    height: 2px;
-    -webkit-animation: Animate-WP 3s;
-            animation: Animate-WP 3s;
-    background-color: #000000;
-    position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    float: left; }
-  
-  @-webkit-keyframes Animate-HTML {
-    from {
-      width: 0; }
-    to {
-      width: 95%; } }
-  
-  @keyframes Animate-HTML {
-    from {
-      width: 0; }
-    to {
-      width: 95%; } }
-  
-  @-webkit-keyframes Animate-CSS {
-    from {
-      width: 0; }
-    to {
-      width: 85%; } }
-  
-  @keyframes Animate-CSS {
-    from {
-      width: 0; }
-    to {
-      width: 85%; } }
-  
-  @-webkit-keyframes Animate-JS {
-    from {
-      width: 0; }
-    to {
-      width: 80%; } }
-  
-  @keyframes Animate-JS {
-    from {
-      width: 0; }
-    to {
-      width: 80%; } }
-  
-  @-webkit-keyframes Animate-A4 {
-    from {
-      width: 0; }
-    to {
-      width: 50%; } }
-  
-  @keyframes Animate-A4 {
-    from {
-      width: 0; }
-    to {
-      width: 50%; } }
-  
-  @-webkit-keyframes Animate-NODEJS {
-    from {
-      width: 0; }
-    to {
-      width: 70%; } }
-  
-  @keyframes Animate-NODEJS {
-    from {
-      width: 0; }
-    to {
-      width: 70%; } }
-  
-  @-webkit-keyframes Animate-WP {
-    from {
-      width: 0; }
-    to {
-      width: 90%; } }
-  
-  @keyframes Animate-WP {
-    from {
-      width: 0; }
-    to {
-      width: 90%; } }
-  
-  /* Custom, iPhone Retina */
-  /* Extra Small Devices, Phones */
-  @media only screen and (min-width: 480px) {
-    .ion-social-html5-outline {
-      font-size: 310%; }
-    .ion-social-css3-outline {
-      font-size: 310%; }
-    .ion-social-html5-outline {
-      font-size: 300%; }
-    .ion-social-javascript {
-      font-size: 300%; }
-    .ion-social-angular-outline {
-      font-size: 300%; }
-    .ion-social-nodejs {
-      font-size: 300%; }
-    .ion-social-wordpress-outline {
-      font-size: 310%; }
-    .skillBar {
-      width: 80%;
-      height: 35px;
-      margin: 10px auto; }
-    .skillArea {
-      margin-left: 10px;
-      position: relative;
-      left: 35px;
-      top: 10px;
-      padding: 5px; }
-    .skillName {
-      font-size: 22px;
-      margin: 35px;
-      position: relative;
-      top: 10px; } }
-  
-  /* Small Devices, Tablets */
-  @media only screen and (min-width: 768px) {
-    .skillBar {
-      width: 75%;
-      margin: 10px auto; }
-    .skillArea {
-      position: relative;
-      left: 35px;
-      top: 10px;
-      padding: 5px; }
-    .skillName {
-      font-size: 22px;
-      margin: 35px;
-      position: relative;
-      top: 10px; } }
-  
-  /* Medium Devices, Desktops */
-  @media only screen and (min-width: 992px) {
-    .skillBar {
-      width: 70%; } }
-  
-  /* Large Devices, Wide Screens */
-  @media only screen and (min-width: 1200px) {
-    .skillBar {
-      width: 65%; } }
-  
+}
+
+.skill5 .skill-count5 {
+    right: 0;
+}
+
+/* SKILL 6 */
+.skill6{
+    width: 90%
+}
+
+.skill6 .skill-count6 {
+    right: 0;
+}
+/* GITHUB SOURCE STYLE  */
+.github-source{
+float:right;
+display:block;
+color:#fff;
+margin:0 20px;
+position: relative;
+z-index:999999;
+top:0;
+}
+.github-source i{
+font-size:50px;
+color:#000
+}
