@@ -1,57 +1,51 @@
-<div class='container'>
-    
-    <h1 class='title'> CSS Skill Bar </h1>
+<app-side-bar></app-side-bar>
+<div class="section">
+  <div class="section-header">
+    <div class="section-title">Skills</div>
+    <div class="section-name">Languages</div>
+  </div>
+  <div class="section-content">
+    <circle-progress [percent]="90" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
+      [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'HTML'"
+      [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true [imageSrc]="'assets/html.png'"
+      [imageHeight]=30 [imageWidth]=30></circle-progress>
+    <circle-progress [percent]="90" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
+      [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'HTML'"
+      [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true [imageSrc]="'assets/css.png'"
+      [imageHeight]=50 [imageWidth]=50></circle-progress>
+    <circle-progress [percent]="80" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
+      [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'HTML'"
+      [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true
+      [imageSrc]="'assets/typescript.png'" [imageHeight]=50 [imageWidth]=50></circle-progress>
+    <circle-progress [percent]="60" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
+      [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'HTML'"
+      [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true [imageSrc]="'assets/java.png'"
+      [imageHeight]=50 [imageWidth]=50></circle-progress>
 
-    <div class='skillBox'>
+  </div>
 
-      <div class='skillBar'>
-        <a class='ion-social-html5-outline'> </a>
-        <span class='skillName'> HTML5 </span>
-        <div class="skillArea">
-          <span class="skill-HTML"> </span>
-        </div><!-- skillArea -->
-      </div><!-- skillBar -->
+  <div class="section-header">
+    <div class="section-title">Skills</div>
+    <div class="section-name">Languages</div>
+  </div>
+  <div class="section-content">
+    <circle-progress [percent]="90" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
+      [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'HTML'"
+      [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true [imageSrc]="'assets/html.png'"
+      [imageHeight]=30 [imageWidth]=30></circle-progress>
+    <circle-progress [percent]="90" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
+      [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'HTML'"
+      [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true [imageSrc]="'assets/css.png'"
+      [imageHeight]=50 [imageWidth]=50></circle-progress>
+    <circle-progress [percent]="80" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
+      [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'HTML'"
+      [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true
+      [imageSrc]="'assets/typescript.png'" [imageHeight]=50 [imageWidth]=50></circle-progress>
+    <circle-progress [percent]="60" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
+      [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'HTML'"
+      [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true [imageSrc]="'assets/java.png'"
+      [imageHeight]=50 [imageWidth]=50></circle-progress>
 
-      <div class='skillBar'>
-        <a class='ion-social-css3-outline'> </a>
-        <span class='skillName'> CSS3 </span>
-        <div class="skillArea">
-          <span class="skill-CSS"> </span>
-        </div><!-- skillArea -->
-      </div><!-- skillBar -->
+  </div>
 
-      <div class='skillBar'>
-        <a class='ion-social-javascript'> </a>
-        <span class='skillName'> JAVASCRIPT </span>
-        <div class="skillArea">
-          <span class="skill-JS"> </span>
-        </div><!-- skillArea -->
-      </div><!-- skillBar -->
-
-      <div class='skillBar'>
-        <a class='ion-social-angular-outline'> </a>
-        <span class='skillName'> ANGULAR </span>
-        <div class="skillArea">
-          <span class="skill-A4"> </span>
-        </div><!-- skillArea -->
-      </div><!-- skillBar -->
-
-      <div class='skillBar'>
-        <a class='ion-social-nodejs'> </a>
-        <span class='skillName'> NODEJS </span>
-        <div class="skillArea">
-          <span class="skill-NODEJS"> </span>
-        </div><!-- skillArea -->
-      </div><!-- skillBar -->
-
-      <div class='skillBar'>
-        <a class='ion-social-wordpress-outline'> </a>
-        <span class='skillName'> WORDPRESS </span>
-        <div class="skillArea">
-          <span class="skill-WP"> </span>
-        </div><!-- skillArea -->
-      </div><!-- skillBar -->
-
-    </div><!-- skillBox -->
-
-  </div><!-- container -->
+</div>
