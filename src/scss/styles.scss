@@ -117,7 +117,14 @@
           }
           .section-main, .section-registration{padding-left: 0px;transition: .2s;}
       }
-  }
+  } 
+.section {
+  padding-left: 5vh;
+  padding-right: 5vh;
+  overflow: hidden;
+  width: 98%;
+}
+
 }
 .sidenav, .section-main, .section-registration, .right-side{transition: .2s;}
 
