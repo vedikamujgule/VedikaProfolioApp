@@ -22,7 +22,7 @@ export class SideBarComponent implements OnInit {
     this.routeUrl='';
     switch(componentName) { 
       case 'about me': {
-         this.router.navigate(['about-me']);
+        //  this.router.navigate(['about-me']);this.router.navigate(['about-me']);
          break; 
       } 
       case 'education': { 
