@@ -22,23 +22,23 @@ export class SideBarComponent implements OnInit {
     this.routeUrl='';
     switch(componentName) { 
       case 'about me': {
-         this.router.navigate(['about-me']);
+         this.router.navigate(['about-me']);this.router.navigate(['about-me']);
          break; 
       } 
       case 'education': { 
         this.router.navigate(['education']);
          break; 
       } 
-      case 'work-exp': { 
-        this.router.navigate(['work-exp']);
-         break; 
-      } 
-      case 'skills': { 
-        this.router.navigate(['skills']);
-         break; 
-      } 
+      // case 'work-exp': { 
+      //   this.router.navigate(['work-exp']);
+      //    break; 
+      // } 
+      // case 'skills': { 
+      //   this.router.navigate(['skills']);
+      //    break; 
+      // } 
       default: { 
-         //statements; 
+         //statements;    
          break; 
       } }
     }
