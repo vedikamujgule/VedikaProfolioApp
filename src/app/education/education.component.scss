@@ -184,9 +184,20 @@ h3 {
   color: $light-orange;
   width: 10em;
 }
-@media (max-width: 767px) {
+
+@media (max-width: 992px){
+  .experience .item {
+    position: relative;
+    margin-bottom: 40px;
+  }
+  
   .experience .job-info {
     position: static;
     margin-bottom: 1rem;
+  }
+  .experience .location {
+    padding-bottom: 0.5em;
+    position: relative;
+    
   }
 }
