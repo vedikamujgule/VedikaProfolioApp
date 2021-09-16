@@ -38,7 +38,7 @@ export class SideBarComponent implements OnInit {
          break; 
       } 
       default: { 
-         //statements; 
+         //statements;    
          break; 
       } }
     }
