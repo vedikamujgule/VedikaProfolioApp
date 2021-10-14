@@ -120,18 +120,18 @@
     min-height: 100vh;
     width: 60%;
     display: grid;
-    grid-template-rows: 7% 17% auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
 }
-.section-header{
+.section-header {
     padding-left: 0.5em;
     padding-bottom: 0.5em;
-    .section-title{
+    .section-title {
         font-size: 16px;
         font-weight: 600;
         color: $light-orange;
     }
-    .section-name{
-  
+    .section-name {
     }
     .section-name::after {
         content: "";
@@ -139,8 +139,5 @@
         width: 32px;
         padding-top: 3px;
         border-bottom: 2px solid $light-orange;
-      }
-  }
-  
-
-  
+    }
+}

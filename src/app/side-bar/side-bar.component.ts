@@ -21,22 +21,30 @@ export class SideBarComponent implements OnInit {
   navigateTo(componentName:string){
     this.routeUrl='';
     switch(componentName) { 
-      case 'about me': {
-        //  this.router.navigate(['about-me']);this.router.navigate(['about-me']);
+      case '': {
+         this.router.navigate(['']);
          break; 
       } 
       case 'education': { 
         this.router.navigate(['education']);
          break; 
       } 
-      // case 'work-exp': { 
-      //   this.router.navigate(['work-exp']);
-      //    break; 
-      // } 
-      // case 'skills': { 
-      //   this.router.navigate(['skills']);
-      //    break; 
-      // } 
+      case 'work-exp': { 
+        this.router.navigate(['work-exp']);
+         break; 
+      } 
+      case 'skills': { 
+        this.router.navigate(['skills']);
+         break; 
+      } 
+      case 'projects': { 
+        this.router.navigate(['projects']);
+         break; 
+      } 
+      case 'hobbies': { 
+        this.router.navigate(['hobbies']);
+         break; 
+      } 
       default: { 
          //statements;    
          break; 

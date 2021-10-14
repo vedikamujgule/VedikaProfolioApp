@@ -10,7 +10,7 @@ import { HobbiesComponent } from './hobbies/hobbies.component';
 import { ProjectsComponent } from './projects/projects.component';
 
 const routes: Routes = [
-  {path: 'about-me', component:AboutMeComponent},
+  {path: '', component:AboutMeComponent},
   {path: 'education', component:EducationComponent},
   {path: 'skills', component:SkillsComponent},
   {path: 'work-exp', component:WorkExpComponent},

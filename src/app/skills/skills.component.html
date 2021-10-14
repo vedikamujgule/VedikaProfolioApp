@@ -1,11 +1,12 @@
 <app-side-bar></app-side-bar>
 <div class="section-skills">
-  <div class="section-header">
+  <div>  
+    <div class="section-header">
     <div class="section-title">Skills</div>
     <div class="section-name">Languages</div>
   </div>
   <div class="section-content">
-    <circle-progress [percent]="90" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
+    <circle-progress [percent]="100" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
       [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'HTML'"
       [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true [imageSrc]="'assets/html.png'"
       [imageHeight]=30 [imageWidth]=30></circle-progress>
@@ -13,7 +14,7 @@
       [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'HTML'"
       [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true [imageSrc]="'assets/css.png'"
       [imageHeight]=50 [imageWidth]=50></circle-progress>
-    <circle-progress [percent]="80" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
+    <circle-progress [percent]="90" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
       [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'HTML'"
       [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true
       [imageSrc]="'assets/typescript.png'" [imageHeight]=50 [imageWidth]=50></circle-progress>
@@ -22,30 +23,109 @@
       [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true [imageSrc]="'assets/java.png'"
       [imageHeight]=50 [imageWidth]=50></circle-progress>
   </div>
+</div>
 
 
   <div >
     <div class="section-header">
-      <div class="section-name">Frameworks</div>
+      <div class="section-name">Frameworks/Libraries</div>
     </div>
     <div class="section-content">
       <circle-progress [percent]="90" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
-        [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'HTML'"
+        [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'Angular'"
         [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true [imageSrc]="'assets/angular.png'"
         [imageHeight]=30 [imageWidth]=30></circle-progress>
-      <circle-progress [percent]="90" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
-        [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'HTML'"
-        [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true [imageSrc]="'assets/bootstrap.png'"
-        [imageHeight]=50 [imageWidth]=50></circle-progress>
-      <circle-progress [percent]="80" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
-        [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'HTML'"
+        <circle-progress [percent]="60" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
+        [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'React'"
         [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true
-        [imageSrc]="'assets/typescript.png'" [imageHeight]=50 [imageWidth]=50></circle-progress>
-      <circle-progress [percent]="60" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
-        [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'HTML'"
-        [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true [imageSrc]="'assets/java.png'"
+        [imageSrc]="'assets/react.png'" [imageHeight]=50 [imageWidth]=50></circle-progress>
+        <circle-progress [percent]="60" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
+        [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'React'"
+        [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true
+        [imageSrc]="'assets/redux.png'" [imageHeight]=50 [imageWidth]=50></circle-progress>
+      <!-- <circle-progress [percent]="90" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
+        [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'Bootstrap'"
+        [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true [imageSrc]="'assets/bootstrap.png'"
+        [imageHeight]=50 [imageWidth]=50></circle-progress> -->
+        <circle-progress [percent]="80" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
+        [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'Bootstrap'"
+        [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true [imageSrc]="'assets/reactbs.jpg'"
         [imageHeight]=50 [imageWidth]=50></circle-progress>
+
     </div>
   </div>  
+  
+  <div>
+    <div class="section-header">
+      <div class="section-name">Open source tools/platforms</div>
+    </div>
+    <div class="section-content">
+      <circle-progress [percent]="80" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
+        [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'HTML'"
+        [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true [imageSrc]="'assets/postman.png'"
+        [imageHeight]=50 [imageWidth]=50></circle-progress>
+      <circle-progress [percent]="90" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
+        [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'HTML'"
+        [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true [imageSrc]="'assets/chrome.png'"
+        [imageHeight]=50 [imageWidth]=50></circle-progress>
+        <circle-progress [percent]="50" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
+        [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'HTML'"
+        [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true [imageSrc]="'assets/docker.png'"
+        [imageHeight]=50 [imageWidth]=50></circle-progress>
+        <circle-progress [percent]="70" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
+        [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'HTML'"
+        [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true [imageSrc]="'assets/jira.png'"
+        [imageHeight]=50 [imageWidth]=50></circle-progress>
+  </div> 
+  </div>
+  <div >
+    <div class="section-header">
+      <div class="section-name">Version Control</div>
+    </div>
+    <div class="section-content">
+      <circle-progress [percent]="70" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
+        [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'HTML'"
+        [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true [imageSrc]="'assets/githubl.png'"
+        [imageHeight]=50 [imageWidth]=50></circle-progress>
+        <circle-progress [percent]="70" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
+        [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'HTML'"
+        [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true [imageSrc]="'assets/googlerepo.png'"
+        [imageHeight]=50 [imageWidth]=50></circle-progress>
+      <circle-progress [percent]="50" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
+        [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'HTML'"
+        [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true [imageSrc]="'assets/sourcetree.png'"
+        [imageHeight]=50 [imageWidth]=50></circle-progress>
+  </div> 
+  </div>
+  <div >
+    <div class="section-header">
+      <div class="section-name">IDEs</div>
+    </div>
+    <div class="section-content">
+      <circle-progress [percent]="100" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
+        [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'HTML'"
+        [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true [imageSrc]="'assets/vscode.png'"
+        [imageHeight]=50 [imageWidth]=50></circle-progress>
+        <circle-progress [percent]="70" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
+        [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'HTML'"
+        [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true [imageSrc]="'assets/eclipsel.png'"
+        [imageHeight]=50 [imageWidth]=50></circle-progress>
+  </div> 
+  </div>
+  <div >
+    <div class="section-header">
+      <div class="section-name">Databases/ Backend services</div>
+    </div>
+    <div class="section-content">
+      <circle-progress [percent]="60" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
+        [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'HTML'"
+        [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true [imageSrc]="'assets/mysql.png'"
+        [imageHeight]=50 [imageWidth]=50></circle-progress>
+        <circle-progress [percent]="50" [radius]="50" [outerStrokeWidth]="6" [innerStrokeWidth]="4"
+        [outerStrokeColor]="'#dc9b8a'" [innerStrokeColor]="'#2F4858'" [titleColor]="'#dc9b8a'" [title]="'HTML'"
+        [animation]="true" [animationDuration]="1000" [showUnits]="false" [showImage]=true [imageSrc]="'assets/firebase.png'"
+        [imageHeight]=50 [imageWidth]=50></circle-progress>
+  </div> 
+  </div>
 </div>
 
